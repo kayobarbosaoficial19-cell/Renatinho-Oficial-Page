@@ -12,7 +12,7 @@
     body { font-family: 'DM Sans', sans-serif; background-color: #000; color: #fff; overflow-x: hidden; }
     .font-display { font-family: 'Bebas Neue', cursive; }
     
-    /* FUNDO 3D MOVIMENTADO - Ajustado para harmonizar com as novas fotos */
+    /* FUNDO 3D MOVIMENTADO */
     .bg-cyber-grid {
       background-image: 
         linear-gradient(rgba(244, 63, 94, 0.1) 1px, transparent 1px),
@@ -57,22 +57,20 @@
     </div>
   </nav>
 
-  <!-- SEÇÃO HERO REESTRUTURADA -->
+  <!-- SEÇÃO HERO -->
   <section class="relative min-h-screen flex items-center justify-center overflow-hidden z-10 pt-16">
     
-    <!-- IMAGEM DE FUNDO (BACKDROP) -->
+    <!-- IMAGEM DE FUNDO (BACKDROP JPG) -->
     <div class="absolute inset-0 z-0">
-        <img src="./backdrop---DJ-RENATINHO-01.png" alt="DJ Renatinho Backdrop" class="w-full h-full object-cover opacity-60 lg:opacity-80">
-        <!-- Camadas de degradê para leitura do texto -->
+        <img src="./backdrop---DJ-RENATINHO-01.jpg" alt="DJ Renatinho Backdrop" class="w-full h-full object-cover opacity-60 lg:opacity-80">
         <div class="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
       
-      <!-- LADO ESQUERDO: CONTEÚDO TEXTUAL -->
+      <!-- LADO ESQUERDO: TEXTOS -->
       <div class="text-center lg:text-left order-2 lg:order-1">
-        <!-- Waveform Animado -->
         <div class="flex items-end justify-center lg:justify-start gap-1 mb-8 h-8">
           <div class="wave-bar w-1.5 bg-rose-500" style="animation-delay: 0.1s"></div>
           <div class="wave-bar w-1.5 bg-rose-400" style="animation-delay: 0.3s"></div>
@@ -92,19 +90,18 @@
         </div>
       </div>
 
-      <!-- LADO DIREITO: ELEMENTO VISUAL (CONTRATE) -->
+      <!-- LADO DIREITO: IMAGEM CONTRATE (JPG) -->
       <div class="flex justify-center lg:justify-end order-1 lg:order-2">
         <div class="relative w-full max-w-[320px] md:max-w-[480px] animate-float">
-            <!-- Glow de fundo para destacar o DJ -->
             <div class="absolute inset-0 bg-rose-600/20 rounded-full blur-[100px] transform scale-75"></div>
-            <img src="./CONTRATE---STR---RETATINHO.png" alt="Contrate DJ Renatinho" class="relative z-10 w-full h-auto drop-shadow-[0_20px_50px_rgba(0,0,0,0.7)]">
+            <img src="./CONTRATE---STR---RETATINHO.jpg" alt="Contrate DJ Renatinho" class="relative z-10 w-full h-auto drop-shadow-[0_20px_50px_rgba(0,0,0,0.7)]">
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- CARROSSEL DE LOGOS -->
+  <!-- CARROSSEL -->
   <div class="py-12 bg-white/5 backdrop-blur-sm border-y border-rose-500/10 overflow-hidden relative z-10">
     <div class="animate-marquee gap-16 md:gap-24 items-center">
       <img src="https://i.postimg.cc/Y0xwjkMD/AIEnhancer-Captura-de-Tela-2026-04-01-a-s-removebg-preview.webp" class="h-10 md:h-12 w-auto object-contain">
@@ -113,7 +110,6 @@
       <img src="https://i.postimg.cc/J738p3Zr/Captura-de-Tela-2026-04-01-a-s-12-56-11.webp" class="h-10 md:h-12 w-auto object-contain">
       <img src="https://i.postimg.cc/5ymMj1b7/Captura-de-Tela-2026-04-01-a-s-12-57-23-removebg-preview.webp" class="h-10 md:h-12 w-auto object-contain">
       <img src="https://i.postimg.cc/jq6TM6PR/upscalemedia-transformed-removebg-preview.webp" class="h-10 md:h-12 w-auto object-contain">
-      <!-- Cópia para Loop Infinito -->
       <img src="https://i.postimg.cc/Y0xwjkMD/AIEnhancer-Captura-de-Tela-2026-04-01-a-s-removebg-preview.webp" class="h-10 md:h-12 w-auto object-contain">
       <img src="https://i.postimg.cc/5ymMj1bs/Captura-de-Tela-2026-04-01-a-s-12-54-22-removebg-preview.webp" class="h-10 md:h-12 w-auto object-contain">
     </div>
@@ -145,7 +141,6 @@
   <!-- SOCIAL SECTION -->
   <section class="py-16 px-4 z-10 relative bg-[#050505] border-t border-white/5">
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-      
       <!-- WhatsApp -->
       <a href="https://wa.me/5518996335849" target="_blank" class="flex flex-col items-center py-10 px-6 border-b sm:border-b-0 sm:border-r border-white/10 hover:bg-white/[0.02] transition-all group">
         <div class="w-16 h-16 rounded-full border border-zinc-800 flex items-center justify-center mb-6 group-hover:border-[#25D366]/50 transition-all">
@@ -154,7 +149,6 @@
         <span class="text-[10px] tracking-[0.3em] text-zinc-500 uppercase mb-2">Entre em Contato</span>
         <span class="text-white font-bold text-lg">(18) 99633-5849</span>
       </a>
-
       <!-- Instagram -->
       <a href="https://www.instagram.com/dj_renatinho_oficial" target="_blank" class="flex flex-col items-center py-10 px-6 border-b sm:border-b-0 lg:border-r border-white/10 hover:bg-white/[0.02] transition-all group">
         <div class="w-16 h-16 rounded-full border border-zinc-800 flex items-center justify-center mb-6 group-hover:border-[#ee2a7b]/50 transition-all">
@@ -163,7 +157,6 @@
         <span class="text-[10px] tracking-[0.3em] text-zinc-500 uppercase mb-2">Siga no Instagram</span>
         <span class="text-white font-bold text-lg">@dj_renatinho_oficial</span>
       </a>
-
       <!-- Youtube -->
       <a href="https://www.youtube.com/@djrenatinho" target="_blank" class="flex flex-col items-center py-10 px-6 border-b sm:border-b-0 sm:border-r border-white/10 hover:bg-white/[0.02] transition-all group">
         <div class="w-16 h-16 rounded-full border border-zinc-800 flex items-center justify-center mb-6 group-hover:border-[#FF0000]/50 transition-all">
@@ -172,7 +165,6 @@
         <span class="text-[10px] tracking-[0.3em] text-zinc-500 uppercase mb-2">Assista no Youtube</span>
         <span class="text-white font-bold text-lg">DJ Renatinho É o Bicho</span>
       </a>
-
       <!-- Spotify -->
       <a href="https://open.spotify.com/artist/5U8CxdrbP2mIE2onRsoCcB" target="_blank" class="flex flex-col items-center py-10 px-6 hover:bg-white/[0.02] transition-all group">
         <div class="w-16 h-16 rounded-full border border-zinc-800 flex items-center justify-center mb-6 group-hover:border-[#1DB954]/50 transition-all">
@@ -181,7 +173,6 @@
         <span class="text-[10px] tracking-[0.3em] text-zinc-500 uppercase mb-2">Ouça no Spotify</span>
         <span class="text-white font-bold text-lg">DJ Renatinho</span>
       </a>
-
     </div>
   </section>
 
